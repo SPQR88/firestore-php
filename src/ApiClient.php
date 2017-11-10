@@ -1,5 +1,5 @@
 <?php
-namespace Firestore;
+namespace SPQR88\Firestore;
 
 class ApiClient
 {
