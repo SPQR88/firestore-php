@@ -92,7 +92,7 @@ class ApiClient
 
     public function getDocument($collectionName, $documentId) {
         if ($response = $this->get("documents/$collectionName/$documentId")) {
-            return new FireStoreDocument($response);
+            return new Document($response);
         }
     }
 
