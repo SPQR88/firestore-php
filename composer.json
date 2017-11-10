@@ -1,0 +1,23 @@
+{
+  "name": "SPQR88/firestore-php",
+  "description": "Firestore PHP Client",
+  "homepage": "https://github.com/SPQR88/firestore-php",
+  "keywords": [
+    "firestore",
+    "REST"
+  ],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Dmitry Nikolayev",
+      "email": "nikolayevdima88@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
